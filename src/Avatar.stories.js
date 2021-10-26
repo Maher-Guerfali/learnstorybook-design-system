@@ -2,6 +2,14 @@ import React from "react";
 
 import { Avatar } from "./Avatar";
 
+
+
+// New story using controls
+const Template = args => <Avatar {...args} />;
+
+
+
+
 export default {
   title: "Design System/Avatar",
   component: Avatar,
